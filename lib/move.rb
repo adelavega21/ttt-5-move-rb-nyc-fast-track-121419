@@ -9,10 +9,6 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(user_input)
-   
-end
- 
-def move
-  update_array_with_X(board, 'n' - 1.to_i, "X")
-  update_array_with_O(board, 'n' - 1.to_i, "O")
+  def input_to_index(user_input)
+  index = user_input.to_i - 1
 end
